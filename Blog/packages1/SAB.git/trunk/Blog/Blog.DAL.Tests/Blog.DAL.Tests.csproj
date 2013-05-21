@@ -42,13 +42,13 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="TDD.DbTestHelpers">
+    <Reference Include="TDD.DbTestHelpers, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\TDD.DbTestHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet.Core">
+    <Reference Include="YamlDotNet.Core, Version=0.2.4453.29938, Culture=neutral, PublicKeyToken=2b53052c5884d7a1, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\YamlDotNet.Core.dll</HintPath>
     </Reference>
-    <Reference Include="YamlDotNet.RepresentationModel">
+    <Reference Include="YamlDotNet.RepresentationModel, Version=0.2.4453.29939, Culture=neutral, PublicKeyToken=2b53052c5884d7a1, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll</HintPath>
     </Reference>
   </ItemGroup>
