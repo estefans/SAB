@@ -1,0 +1,8 @@
+﻿Posts: 
+ test-post: 
+  Author: test
+  Content: test, Etest, test...
+Comments:
+ test-post-comment:
+  PostId: 1
+  Content: ha ha ha
