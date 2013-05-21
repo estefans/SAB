@@ -44,12 +44,15 @@
     </Reference>
     <Reference Include="TDD.DbTestHelpers, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\TDD.DbTestHelpers.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="YamlDotNet.Core, Version=0.2.4453.29938, Culture=neutral, PublicKeyToken=2b53052c5884d7a1, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\YamlDotNet.Core.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="YamlDotNet.RepresentationModel, Version=0.2.4453.29939, Culture=neutral, PublicKeyToken=2b53052c5884d7a1, processorArchitecture=MSIL">
       <HintPath>..\packages\DbTestHelpers\YamlDotNet.RepresentationModel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +76,7 @@
     <ProjectReference Include="..\Blog.DAL\Blog.DAL.csproj">
       <Project>{11A34EBA-0C94-44C4-9C53-1542F18EEFD2}</Project>
       <Name>Blog.DAL</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
